@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.inventaris')
 
 @section('title', 'Detail Barang')
 
