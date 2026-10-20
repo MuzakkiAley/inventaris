@@ -16,6 +16,7 @@
                 <a class="nav-link" href="{{ route('barang.index') }}">Barang</a>
                 <a class="nav-link" href="{{ route('kategori.index') }}">Kategori</a>
                 <a class="nav-link" href="{{ route('supplier.index') }}">Supplier</a>
+                <a class="nav-link" href="{{ route('transaksi.index') }}">Transaksi</a>
             </div>
         </div>
     </nav>
