@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\SupplierController;
@@ -10,6 +11,7 @@ Route::get('/', function () {
     return redirect()->route('barang.index');
 });
 
+Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 Route::resource('barang', BarangController::class);
 Route::resource('kategori', KategoriController::class);
 Route::resource('supplier', SupplierController::class);

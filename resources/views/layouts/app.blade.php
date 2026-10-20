@@ -11,8 +11,9 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('barang.index') }}">📦 Sistem Inventaris</a>
+            <a class="navbar-brand" href="{{ route('dashboard') }}">📦 Sistem Inventaris</a>
             <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a>
                 <a class="nav-link" href="{{ route('barang.index') }}">Barang</a>
                 <a class="nav-link" href="{{ route('kategori.index') }}">Kategori</a>
                 <a class="nav-link" href="{{ route('supplier.index') }}">Supplier</a>
