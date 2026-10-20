@@ -38,10 +38,13 @@ php artisan migrate
 
 # Jalankan server
 php artisan serve
+
+```
 Buka http://localhost:8000, register akun (admin@example.com, password123), dan mulai gunakan.
 
 📸 Screenshot
-![Screenshot Dashboard](Screenshot (73).png)
+![Dashboard preview](screenshot-dashboard.png)
 
 👤 Author
+
 Muzakki Aley
