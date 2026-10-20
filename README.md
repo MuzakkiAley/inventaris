@@ -37,12 +37,11 @@ php artisan key:generate
 php artisan migrate
 
 # Jalankan server
-php artisan server
-
-Buka http://localhost:8000, register akun (admin@example, password123), dan mulai gunakan.
+php artisan serve
+Buka http://localhost:8000, register akun (admin@example.com, password123), dan mulai gunakan.
 
 📸 Screenshot
-<img width="1920" height="905" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/a3cc7166-a5ab-4c64-8281-2e4e9874e85d" />
+![Screenshot Dashboard](Screenshot (73).png)
 
 👤 Author
 Muzakki Aley
